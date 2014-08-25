@@ -47,7 +47,8 @@ module.exports = function(config) {
 
     coverageReporter: {
       type: 'lcov',
-      dir: 'coverage/'
+      dir: 'coverage/',
+      subdir: '.'
     },
 
     // testing framework to use (jasmine/mocha/qunit/...)
