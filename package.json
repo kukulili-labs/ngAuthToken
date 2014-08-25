@@ -1,0 +1,47 @@
+{
+  "name": "ngAuthToken",
+  "description": "Token-based AngularJS Authentication",
+  "version": "0.0.1",
+  "scripts": {
+    "test": "grunt test"
+  },
+  "homepage": "https://github.com/kukulili-labs/ngAuthToken",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:kukulili-labs/ngAuthToken.git"
+  },
+  "author": {
+    "name": "kukulili labs - Sebastian Mueller",
+    "email": "smueller@kukulili-labs.com",
+    "url": "http://www.kukulili-labs.com"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "bower": "^1.3.9",
+    "grunt": "~0.4.5",
+    "grunt-cli": "~0.1.13",
+    "grunt-contrib-jshint": "~0.10.0",
+    "grunt-contrib-uglify": "~0.5.1",
+    "grunt-karma": "^0.8.3",
+    "karma": "^0.12.22",
+    "karma-coverage": "^0.2.6",
+    "karma-jasmine": "^0.1.5",
+    "karma-phantomjs-launcher": "^0.1.4",
+    "load-grunt-tasks": "~0.6.0",
+    "time-grunt": "~1.0.0"
+  },
+  "bugs": {
+    "url": "https://github.com/kukulili-labs/ngAuthToken/issues"
+  },
+  "license": "MIT",
+  "tags": [
+    "authentication",
+    "login",
+    "token",
+    "jwt",
+    "angularjs",
+    "angular",
+    "auth",
+    "sign-in"
+  ]
+}

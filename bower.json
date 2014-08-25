@@ -1,0 +1,26 @@
+{
+  "name": "ngAuthToken",
+  "version": "0.0.1",
+  "main": "ngAuthToken.js",
+  "homepage": "https://github.com/kukulili-labs/ngAuthToken",
+  "ignore": [
+    ".gitignore",
+    ".travis.yml",
+    "node_modules",
+    "bower_components",
+    "test",
+    "LICENSE",
+    "package.json",
+    "Gruntfile.js",
+    "karma.conf.js",
+    "examples",
+    "coverage"
+  ],
+  "dependencies": {
+    "angular-local-storage": "~0.0.7"
+  },
+  "devDependencies": {
+    "angular": "~1.2.22",
+    "angular-mocks": "~1.2.22"
+  }
+}

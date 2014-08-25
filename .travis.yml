@@ -1,0 +1,19 @@
+language: node_js
+
+node_js:
+  - "0.10"
+
+script:
+  - ./node_modules/karma/bin/karma start karma.conf.js --no-auto-watch --single-run --browsers PhantomJS
+
+before_script:
+  - npm install -g bower codeclimate-test-reporter
+  - npm install
+  - bower install
+
+after_script:
+  - cat coverage/lcov.info | codeclimate
+
+addons:
+  code_climate:
+    repo_token: 8118e23d6aa353ca4453621353bd3be811139f46f1a89d82ca6ed42e77920b24
